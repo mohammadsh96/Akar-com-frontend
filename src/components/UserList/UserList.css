@@ -1,0 +1,58 @@
+.shadowUserList {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
+
+    box-shadow: 0 .5rem 1rem #27ae60 !important;
+}
+
+.shadowUserList:hover {
+    box-shadow: 0 .5rem 1rem #fff !important;
+}
+
+.btn4 {
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px inset black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+}
+
+.btn3 {
+
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px inset black;
+    border-radius: 10px;
+
+}
+
+/* .boxo{
+
+    box-shadow: 10px 10px 10px #27AE60;
+
+} */
+.boxo:hover {
+    box-shadow: -10px -10px -10px #FFF;
+
+
+}

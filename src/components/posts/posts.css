@@ -1,0 +1,148 @@
+    .editForm{
+        width:auto;
+        background-color: rgb(173, 175, 172);
+        border: 2px solid rgb(143, 236, 143);
+        color:black;
+        margin: 10px;
+    }
+    .editForm input, select{
+    
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(10, 10, 10);
+
+    }
+    .editForm ::placeholder{
+      color: gray;
+    }
+
+
+.custom-select {
+    position:sticky;
+    font-family: Arial;
+    padding-right: 5px;
+}
+  
+  .custom-select select {
+    width: 111px;
+    height: 35px;
+    border-radius: 5px;
+}
+.labelLeft{
+    padding-left: 20px;
+}
+
+.moreSpace{
+  height: 70px;
+}
+
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  /* .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+.imageURL{
+  display:flex ; 
+
+}
+.imageURL input{
+   width: 80%;
+
+} */
+/* .imageURL p{
+  font-size: 35px;
+  font-weight: 600;
+  background-color: rgb(16, 97, 0);
+  color:#fff;
+  height: 40px;
+  margin-top: 7px;
+  justify-content:center;
+  border-radius: 3px;
+  cursor: pointer;
+  
+  
+} */
+.beforeForm{
+  
+  margin-top: 30px;
+  display:flex ;
+   justify-content:center;
+  align-items: center;
+  width:270px;
+  height: 80px;
+  gap:30px;
+  margin-left: 15px;
+
+  /* border:2px solid rgba(207, 205, 205, 0.867); */
+  
+}
+/* .beforeForm:hover{
+  border:3px inset rgb(218, 218, 218);
+  border-radius:10px; */
+  /* box-shadow: 10px 20px 50px grey; */
+/* } */
+
+
+.Forms form{
+width:85%;
+  display: grid;
+  grid-template-columns: auto auto  auto  auto  ;
+  
+  gap:13px;
+  padding: 10px;
+  border:3.5px solid rgba(50, 134, 17, 0.867);
+  margin-left: 15px;
+}
+.Forms form Button{
+height:60px;
+transition: 0.5s;
+}
+.head{
+margin : 30px;
+
+
+}

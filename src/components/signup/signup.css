@@ -1,0 +1,23 @@
+.signinlink{
+color : blue;
+font-size : 20px ;
+margin-bottom: 20px;
+}
+
+.signinlink:hover{
+ color:red;
+
+}
+
+.buttonSignup{
+    border-radius: 5px;
+    padding: 17px 30px;
+    background: #27ae60;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+

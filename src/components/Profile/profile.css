@@ -1,0 +1,43 @@
+.profile {
+  /* height: 300px; */
+  /* width:500px; */
+  /* background-color:rgb(103, 243, 103); */
+  /* border:3px solid rgb(3, 238, 3); */
+  /* margin-bottom: 10px; */
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.profile > div {
+  margin: 25px;
+}
+#img {
+  /* border:2px solid rgb(143, 236, 143) ; */
+  height: 340px;
+  border-radius: 60%;
+}
+.edit-form-profile {
+  /* width: 50%; */
+  /* background-color: rgb(175, 175, 172); */
+  /* border: 2px solid rgb(143, 236, 143); */
+  color: black;
+  /* height: 100%; */
+}
+.edit-form-profile .inputF {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(10, 10, 10);
+  height:75px;
+}
+.edit-form-profile form {
+  margin-top: 15px;
+  position:center;
+  width:700px;
+  height:800px;
+
+
+}
+.totalProfile {
+  display: flex;
+  flex-direction: row;
+  /* width:500px; */
+
+}

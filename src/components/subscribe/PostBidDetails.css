@@ -1,0 +1,177 @@
+.postBid-details {
+  padding: 10px 12px 0 10px;
+  background-color: #daf5a4;
+  margin: 5px 0;
+  border: 3px solid rgb(247, 227, 227);
+  width: 450px;
+  height: 500px;
+  margin-left: 10px;
+}
+.postBid-details img {
+  margin-top: -10px;
+  margin-left: -14px;
+
+  width: 450px;
+  height: 300px;
+}
+
+.postBid-details-item {
+  display: inline-block;
+  width: 220px;
+  border: 2px solid black;
+}
+.postBid-details h3{
+margin-top:20px;
+margin-left: 14px;
+
+}
+.button-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 140px;
+}
+.container1 {
+  width: 900px;
+  height: 1200px;
+  display: flex;
+  flex-direction: row !important;
+}
+.price {
+  display: flex;
+ margin-left:200px;
+
+  
+}
+.container1 .price-Left {
+  border: 1px solid black;
+  /* margin-left: 10px; */
+
+  width: 100px;
+  height: 50px;
+}
+.container1 .price-right {
+  width: 100px;
+  height: 50px;
+}
+.input-group {
+  margin-left: -20px;
+  flex-wrap: nowrap;
+}
+.container1 .price-mid {
+  width: 200px;
+  height: 50px;
+}
+.bid-card {
+  font-size: 10px;
+
+  border-radius: 4px;
+
+  height: fit-content;
+}
+.bid-card ul {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  grid-template-columns: auto auto ;
+  padding: 0px;
+  margin: 20px;
+  font-size: 5px;
+}
+.bid-card li {
+  border: 2px solid black;
+  width: 400px;
+  padding-left: 10px;
+  background-color: #daf5a4;
+transition: 0.4s;
+}
+.bid-card li:hover {
+    border: 2px solid rgb(175, 26, 26);
+    width: 500px;
+    padding-left: 10px;
+    background-color: #daf5a4;
+  
+  }
+.bid-card li h3 {
+  font-size: 15px;
+  display: flex !important;
+  flex-direction: row;
+  align-items: baseline !important;
+}
+.bid-card li h3 span{
+    background-color:rgb(52, 247, 237);
+    color:rgb(0, 0, 0);
+    margin-top : 5px;
+
+}
+#h33{
+    display: flex !important;
+    flex-direction: row;
+
+}
+.price-cards{
+ margin-left:50px;
+
+}
+.price-cards h2{
+    margin-left:200px;
+    margin-top:30px;
+
+
+
+}
+.btn-Delete{
+    font-size:14px;
+    background-color: #f1f1f1;
+    width:70px;
+    justify-content: start;
+    padding-left :14px;
+    border :1px solid black;
+    color:black;
+  height: 35px;
+  padding-top :7px;
+transition: 0.3s;
+
+
+}
+.btn-Delete:hover{
+    font-size:14px;
+    background-color: rgba(240, 35, 21, 0.699);
+    width:70px;
+  height: 35px;
+  padding-top :7px;
+  border :1px solid red;
+
+
+    justify-content: start;
+    padding-left :14px;
+    color:rgb(58, 57, 57);
+
+
+}
+/* .card-inner{
+
+    width:450px;
+    height: 200px;
+    background-color:rgba(139, 238, 255, 0.678);
+    height:fit-content;
+
+
+} */
+/* .bid-card h2 {
+    background-color:green;
+    border-radius: 60%;
+    color:rgb(231, 238, 231);
+
+
+} */
+.HighestPrice{
+background-color: lightsalmon;
+border: 1px solid green;
+border-radius:3px;
+justify-content: center;
+padding-left: 155px;
+
+
+}
